@@ -27,3 +27,4 @@ Multiple users behaviors create a predictive model. Can be either user-based or 
 
 * Content-Based Filtering :
 Using data provided about the movies to put them into groups that match  users previous preferences
+
