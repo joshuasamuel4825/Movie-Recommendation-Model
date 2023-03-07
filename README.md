@@ -16,3 +16,5 @@ To many times we make decisions on movies based on popularity and not actual pre
  One of the most popular datasets available on the web for building recommender systems is the 
  1,000,209 movie ratings of 3,900 movies made by 6,040 Movielens users
 https://grouplens.org/datasets/movielens/ 
+
+Uisng this data source we are all set to explore the behavioral patterns and the ones of the movies to build a predictive systems for true movie fans.t’s officially showtime for machine learning
