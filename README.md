@@ -22,8 +22,8 @@ Uisng this data source we are all set to explore the behavioral patterns and the
 
 ## Selection Process 
 
-* Collaborative Filtering 
+* Collaborative Filtering :
 Multiple users behaviors create a predictive model. Can be either user-based or movie-based.
 
-* Content-Based Filtering
+* Content-Based Filtering :
 Using data provided about the movies to put them into groups that match  users previous preferences
