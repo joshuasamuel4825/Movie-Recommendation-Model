@@ -19,3 +19,11 @@ To many times we make decisions on movies based on popularity and not actual pre
 
 
 Uisng this data source we are all set to explore the behavioral patterns and the ones of the movies to build a predictive systems for true movie fans. It’s officially showtime for machine learning
+
+## Selection Process 
+
+* Collaborative Filtering 
+Multiple users behaviors create a predictive model. Can be either user-based or movie-based.
+
+* Content-Based Filtering
+Using data provided about the movies to put them into groups that match  users previous preferences
