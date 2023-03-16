@@ -36,7 +36,8 @@ The machine learning model was created using cosine similarity and similarity sc
 ## User Interface
 The user interface for the model is in the app.py file and is built using the python library, tkinter. It has one textbox where the user can input a movie title and then a search button which will activate the model to recommend 5 movies which will be listed below the textbox.
 
-
+##References
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 
 
 
