@@ -24,18 +24,18 @@ Create a machine learning model that recommends a user movies based on features 
 ## Extract
 For this project, we worked with one large dataset that had over 20 features such as genre, runtime, cast, director, title, tags, etc.
 * We extracted the dataset from the TMDB website and it was a csv file with over 5000 rows and 25 columns. After downloading the dataset, we loaded them into a pandas dataframe using Python and Jupyter Notebook.
-![](Resources/Screen Shot 2023-03-21 at 4.12.42 PM.png)
+![](Resources/first.png)
 ## Transform
 * The original dataset had over 20 columns and most of them unnecessary to the machine learning model. We removed the extra columnns and only kept columns that would provide significant value to our model. The columns we kept were: 'genres', 'keywords', 'popularity', 'vote_average', 'cast', 'director', and  'budget'.
 * We then filled null values from the dataframe to get better results.
 * After cleaning the data, we combined all the features together into text data and turned that data into a matrix.
-![](Resources/Screen Shot 2023-03-21 at 4.13.06 PM.png)
+![](Resources/second.png)
 ## Machine Learning Model
 The machine learning model was created using cosine similarity and similarity scores were given to each movie based on the selected features. The movies with the highest similarity scores are then shown as recommendations to the user.
-![](Resources/Screen Shot 2023-03-21 at 4.13.38 PM.png)
+![](Resources/third.png)
 ## User Interface
 The user interface for the model is in the app.py file and is built using the python library, tkinter. It has one textbox where the user can input a movie title and then a search button which will activate the model to recommend 5 movies which will be listed below the textbox.
-![](Resources/Screen Shot 2023-03-21 at 4.22.23 PM.png)
+![](Resources/ui.png)
 ## References
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 
